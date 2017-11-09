@@ -1,0 +1,29 @@
+{
+  "name": "treinamento-nodejs-dbtraining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --opts test/integration/mocha.opts test/integration/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dariano/treinamento-nodejs-dbtraining.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dariano/treinamento-nodejs-dbtraining/issues"
+  },
+  "homepage": "https://github.com/Dariano/treinamento-nodejs-dbtraining#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "sequelize": "^4.22.5",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "supertest": "^3.0.0"
+  }
+}

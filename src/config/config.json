@@ -1,0 +1,15 @@
+{
+    "test": {
+      "username": "",
+      "password": "",
+      "database": "biblioteca",
+      "params": {
+        "dialect": "sqlite",
+        "storage": "curso_dbtraining.sqlite",
+        "define" : {
+          "underscored": true
+        },
+        "logging": false
+      }
+    }
+  }
